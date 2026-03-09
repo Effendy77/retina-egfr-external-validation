@@ -4,6 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-research-orange)
 
+
 Deep learning framework for predicting kidney function (eGFR) from retinal fundus images with external validation using UK Biobank data.
 
 ---
@@ -16,8 +17,10 @@ University of Liverpool
 Implementation of the external validation pipeline used in the study.
 
 ---
-
 ![Pipeline](docs/Retinal DL pipeline.png)
+<p align="center">
+  <img src="docs/Retinal DL pipeline.png" width="800">
+</p>
 
 # Retina eGFR External Validation
 
