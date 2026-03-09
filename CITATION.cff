@@ -4,5 +4,8 @@ authors:
   - family-names: Bin Hashim
     given-names: Effendy
 doi: (Zenodo DOI after release)
-version: 1.0
+version: 1.0.0
 date-released: 2026
+
+doi: 10.5281/zenodo.18926496
+repository-code: https://github.com/Effendy77/retina-egfr-external-validation
