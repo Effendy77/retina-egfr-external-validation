@@ -10,14 +10,13 @@ Deep learning framework for predicting kidney function (eGFR) from retinal fundu
 ---
 
 ### Paper
-Effendy Hashim et al.  
+Effendy Bin Hashim et al.  
 University of Liverpool  
 
 ### Repository
 Implementation of the external validation pipeline used in the study.
 
 ---
-![Pipeline](docs/Retinal DL pipeline.png)
 <p align="center">
   <img src="docs/Retinal DL pipeline.png" width="800">
 </p>
