@@ -1,0 +1,57 @@
+# Retina eGFR External Validation
+
+This repository contains the code and results for external validation of deep learning models predicting kidney function (eGFR) from retinal fundus images and clinical variables.
+
+## Models evaluated
+
+Four ablation models were evaluated:
+
+| Model | Inputs |
+|------|------|
+| T1_base | Baseline clinical variables |
+| I1_base | Retinal image |
+| IM1_base | Image + baseline clinical variables |
+| IM4_qrisk_retfeat | Image + clinical variables + retinal vascular features |
+
+## External dataset
+
+Instance-1 cohort  
+n = 6298 participants
+
+## Evaluation metrics
+
+Models were evaluated using:
+
+- RMSE
+- MAE
+- R²
+- Pearson correlation
+
+## External validation results
+
+| Model | RMSE | MAE | R² | Correlation |
+|------|------|------|------|------|
+| IM4_qrisk_retfeat | 12.19 | 9.60 | 0.077 | 0.388 |
+| T1_base | 12.23 | 9.88 | 0.071 | 0.420 |
+| IM1_base | 12.45 | 9.71 | 0.038 | 0.422 |
+| I1_base | 12.64 | 9.75 | 0.008 | 0.422 |
+
+## Repository structure
+scripts/ analysis scripts
+results/ model predictions and evaluation outputs
+
+
+## Reproducing the evaluation
+
+Run:
+python scripts/evaluate_external_models.py
+python scripts/plot_external_validation_figure.py
+python scripts/ckd_stage_analysis.py
+
+
+## Author
+
+Effendy Hashim  
+University of Liverpool
+
+
