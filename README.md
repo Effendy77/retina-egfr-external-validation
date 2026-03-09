@@ -78,4 +78,11 @@ python scripts/ckd_stage_analysis.py
 Effendy Bin Hashim  
 University of Liverpool
 
+## Citation
 
+If you use this repository, please cite:
+
+Bin Hashim E.  
+Retinal Deep Learning for External Validation of eGFR Prediction.  
+Zenodo (2026).  
+https://doi.org/10.5281/zenodo.18926496
