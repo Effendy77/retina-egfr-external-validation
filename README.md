@@ -4,6 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-research-orange)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18926496.svg)](https://doi.org/10.5281/zenodo.18926496)
 
 Deep learning framework for predicting kidney function (eGFR) from retinal fundus images with external validation using UK Biobank data.
 
