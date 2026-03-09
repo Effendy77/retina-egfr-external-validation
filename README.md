@@ -1,3 +1,20 @@
+# Retinal Deep Learning for External Validation of eGFR Prediction
+
+Deep learning framework for predicting kidney function (eGFR) from retinal fundus images with external validation using UK Biobank data.
+
+---
+
+### Paper
+Effendy Hashim et al.  
+University of Liverpool  
+
+### Repository
+Implementation of the external validation pipeline used in the study.
+
+---
+
+![Pipeline](docs/Retinal DL pipeline.png)
+
 # Retina eGFR External Validation
 
 This repository contains the code and results for external validation of deep learning models predicting kidney function (eGFR) from retinal fundus images and clinical variables.
