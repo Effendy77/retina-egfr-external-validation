@@ -1,4 +1,8 @@
 # Retinal Deep Learning for External Validation of eGFR Prediction
+![Python](https://img.shields.io/badge/python-3.9-blue)
+![Framework](https://img.shields.io/badge/PyTorch-DeepLearning-red)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-research-orange)
 
 Deep learning framework for predicting kidney function (eGFR) from retinal fundus images with external validation using UK Biobank data.
 
