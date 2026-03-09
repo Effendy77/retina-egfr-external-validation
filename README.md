@@ -75,7 +75,7 @@ python scripts/ckd_stage_analysis.py
 
 ## Author
 
-Effendy Hashim  
+Effendy Bin Hashim  
 University of Liverpool
 
 
